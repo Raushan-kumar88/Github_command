@@ -1,0 +1,100 @@
+GITHUB FILES UPLOAD CODE :-
+
+1.) git config --global user.name ""
+2.) git config --global user.email ""
+3.) git clone (Website Link)
+4.) cd (Folder Name)
+5.) git status 
+6.) git add .
+7.) git commit -m ""
+8.) git push origin master
+
+AND SECOND WAY FOR FILES UPLOAD CODE :-
+1.) git init
+2.) git add README.md
+3.) git remote add origin (here reporaity link paste)
+4.) git add .
+5.) git commit -m "here comment write"
+6.) git push origin master
+
+
+Update sum thing in file :-
+1.git status
+2.git add .
+3.git commit -m “file change name”
+4.git status
+5.git push origin master
+
+Note :- main file save index.html then after upload…
+
+
+Github tutorial notes
+
+git status -> to check status
+git add –a -> to add file
+git init -> to initial github
+git log -> to check comment
+git add first.txt -> single file to add
+rm -rf .git -> to remove initial github
+git clone ….link… -> to past link
+pwd  -> present working directory
+ls  -> last contain
+cd  -> change directory
+touch .gitignore ->this is create new file
+git diff -> it show both are same diff
+git diff –staged
+git commit -a -m “comment” -> shortcut to add and commit
+git rm filename -> to delete file
+git mv file.txt file3.txt -> to change file name
+git rm –cached filename ->this is not track for file
+git log -p ->see commit
+git log –pretty=online ->see all commit single line
+git log –pretty=full -> to see all commit
+git log –since=2.days -> to see commit last 2 days
+git log –since=2.months -> to see last 1months
+git log –since= 2.years-> to see last 2years
+git log –pretty=format:”%h –%an” -> to comment name wise
+git log –pretty=format:”%h – %ae” -> to comment email wise
+git commit –amend -> to change commit
+
+Unstage any file
+
+git restore –staged <file name> -> to unstage file
+git checkout –<file name>
+git checkout -f -> to go previous commit
+
+
+
+Create shortcut key
+
+git config --global alias.st status -> to create status using alias key
+git config --global alias ct =’commit -m’
+
+Create branch
+
+git checkout -b <branch name> -> to create new branch
+ git checkout <branch name> -> to switch branch
+git branch -> to see all branch
+git merge <branch name> -> to merge one branch to another 
+git branch -v -> to show last commit
+git branch --merged -> to show already merge branch
+git branch --no-merged -> to see who branch is not merged 
+
+Delete branch
+
+git branch -d <branch name >  ->merged branch to delete
+git branch -D <branch name> -> not merged branch to delete
+
+Git code to github
+
+git push origin master -> here to master to push github
+git  push origin <branch name> -> here to push new create branch to push 
+git push origin <branch name>:new branch -> to change branch name to push to github
+git push -d origin <branch name> -> to delete push branch from github
+
+Note :- all are import commands for github repository push and edit code ……. 
+
+
+
+more information visit link  ;-
+https://docs.google.com/document/d/1q_V1GOB-eYPokPXJUa1UD2iNX7Xm5YLsI8D4J_pBX6A/edit?usp=sharing
